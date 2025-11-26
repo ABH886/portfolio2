@@ -217,7 +217,8 @@ h1:hover {
 .project {
     text-align: center;
     margin: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
     gap: 60px;
